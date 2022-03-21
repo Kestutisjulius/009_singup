@@ -6,14 +6,15 @@ This project is for educational porpuses only. Pull request are welcome, but pri
 
 Site published at: https://kestutisjulius.github.io/009_singup/
 
-Design: [signUp](./img/007_joga.png)
+Design: [signUp]
 
 ## Project features
 
-- Github pages
-- fixed width container
-- logo + nav
-- png images
+- Github pages (multi-page)
+- HTML form
+- CSS background images
+- CSS position absolute
+- CSS blur effect
 
 ## Authors
 
