@@ -9,4 +9,8 @@ body * {
 body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: lightblue;
+  background-image: url(../img/bg.hill.jpg);
+  background-position: top center;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
