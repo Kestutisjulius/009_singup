@@ -47,3 +47,8 @@
 .form a:hover {
   text-decoration: underline;
 }
+.form > .form-row > .input:hover {
+  outline: 3px solid #777;
+  outline-offset: -3px;
+  border-radius: 10px;
+}
