@@ -5,12 +5,25 @@
   padding-left: 30px;
   padding-right: 30px;
   border-radius: 20px;
-  border-color: #00f;
+  border-color: rgb(78, 2, 96);
   background-color: #015cda;
   color: #fff;
-  cursor: middle finger;
+  cursor: pointer;
+
+  background: rgb(78, 2, 96);
+  background: linear-gradient(
+    35deg,
+    rgba(78, 2, 96, 1) 0%,
+    rgba(115, 10, 10, 1) 35%,
+    rgba(3, 13, 107, 1) 100%
+  );
 }
 
 .btn:hover {
-  background-color: #36f;
+  background: linear-gradient(
+    35deg,
+    rgba(3, 13, 107, 1) 0%,
+    rgba(78, 2, 96, 1) 35%,
+    rgba(115, 10, 10, 1) 100%
+  );
 }
