@@ -35,6 +35,9 @@
     />
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/button.css" />
+    <link rel="stylesheet" href="./css/form.css" />
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
@@ -47,7 +50,60 @@
           <a class="link" href="#">terms of service</a>
         </footer>
       </div>
-      <div class="right-column">RIGHT</div>
+      <div class="right-column">
+        <div class="close">x</div>
+        <form class="form">
+          <div class="form-row">
+            <label for="user_name" class="label green">User Name</label>
+            <input
+              id="user_name"
+              type="email"
+              title="user name"
+              class="input"
+              value=""
+              required
+            />
+          </div>
+          <div class="form-row">
+            <label for="email" class="label">E-Mail</label>
+            <input
+              id="email"
+              type="email"
+              title="email"
+              class="input"
+              value=""
+              required
+            />
+          </div>
+          <div class="form-row">
+            <label for="password" class="label">password</label>
+            <input
+              id="password"
+              type="password"
+              title="password"
+              class="input"
+              value=""
+              required
+            />
+          </div>
+          <div class="form-row">
+            <label for="rpass" class="label">Repeat password</label>
+            <input
+              id="rpass"
+              type="password"
+              title="repeat password"
+              class="input"
+              value=""
+              required
+            />
+          </div>
+          <div class="form-row">
+            <button class="btn" type="submit">Get started</button>
+            <span class="span">or</span>
+            <a href="#">Sign up</a>
+          </div>
+        </form>
+      </div>
     </main>
   </body>
 </html>
