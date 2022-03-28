@@ -1,0 +1,54 @@
+.form {
+  width: 100%;
+}
+
+.form > .form-row {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.form > .form-row:last-of-type {
+  margin-bottom: 0px;
+  background-color: white;
+  line-height: 40px;
+}
+
+.form > .form-row > .label {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 5px !important;
+  text-transform: uppercase;
+  color: #777;
+  font-size: 13px;
+}
+.form > .form-row > .label.green {
+  color: green;
+}
+.form > .form-row > .input {
+  width: 100%;
+  border: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #777;
+}
+
+.span {
+  color: black;
+  line-height: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.form a {
+  line-height: 40px;
+  text-decoration: none;
+}
+
+.form a:hover {
+  text-decoration: underline;
+}
+.form > .form-row > .input:hover {
+  outline: 3px solid #777;
+  outline-offset: -3px;
+  border-radius: 10px;
+}

@@ -4,9 +4,106 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Author: Kestutis, Ilustrator: copy, Length: 1 page; A Sign up page to FtontEnd"
+    />
     <title>Sign up</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="./favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/button.css" />
+    <link rel="stylesheet" href="./css/form.css" />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    CONTENT
+    <main class="container">
+      <div class="left-column">
+        <h1 class="main-title">Sign up</h1>
+        <footer class="bottom-links">
+          <a class="link" href="#">Privacy policy</a>
+          &amp;
+          <a class="link" href="#">terms of service</a>
+        </footer>
+      </div>
+      <div class="right-column">
+        <div class="close">x</div>
+        <form class="form">
+          <div class="form-row">
+            <label for="user_name" class="label green">User Name</label>
+            <input
+              id="user_name"
+              type="email"
+              title="user name"
+              class="input"
+              value=""
+              required
+            />
+          </div>
+          <div class="form-row">
+            <label for="email" class="label">E-Mail</label>
+            <input
+              id="email"
+              type="email"
+              title="email"
+              class="input"
+              value=""
+              required
+            />
+          </div>
+          <div class="form-row">
+            <label for="password" class="label">password</label>
+            <input
+              id="password"
+              type="password"
+              title="password"
+              class="input"
+              value=""
+              required
+            />
+          </div>
+          <div class="form-row">
+            <label for="rpass" class="label">Repeat password</label>
+            <input
+              id="rpass"
+              type="password"
+              title="repeat password"
+              class="input"
+              value=""
+              required
+            />
+          </div>
+          <div class="form-row">
+            <button class="btn" type="submit">Get started</button>
+            <span class="span">or</span>
+            <a href="#">Sign up</a>
+          </div>
+        </form>
+      </div>
+    </main>
   </body>
 </html>
